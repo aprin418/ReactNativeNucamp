@@ -26,7 +26,16 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+
+      "ios": {
+        "bundleIdentifier": "co.nucamp.nucampsite.student",
+        "buildNumber": "1.0.0"
+      },
+      "android": {
+        "package": "co.nucamp.nucampsite.student",
+        "versionCode": 1
+      }
     }
   }
 }
